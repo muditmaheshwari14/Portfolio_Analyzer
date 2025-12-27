@@ -1,0 +1,21 @@
+Project Features
+
+This project is a full-stack Portfolio Analytics and Risk Management platform that allows users to construct multi-asset investment portfolios and analyze them using professional-grade financial analytics. It supports equities, ETFs, funds, commodities, cryptocurrencies, and bonds, enabling users to model real-world portfolios across regions and currencies. The application is designed to bridge the gap between retail portfolio tracking tools and institutional-style risk analysis systems.
+
+The platform includes a dynamic portfolio builder that lets users add multiple holdings with asset class, region, quantity, buy price, and trading currency. Asset selection is powered by a searchable asset catalog, reducing ticker errors and improving data consistency. The system automatically validates holdings and converts all asset values into a user-defined base currency, allowing accurate aggregation of global portfolios.
+
+Once a portfolio is submitted, the application performs historical performance analytics, including cumulative returns, portfolio growth, and asset-weighted return contributions. These analytics provide users with a clear view of how their portfolio has performed over time and how individual holdings influence overall performance. Visual charts make trends and comparisons easy to interpret.
+
+A core feature of the project is its advanced risk analysis module, which computes industry-standard risk metrics such as volatility, Sharpe ratio, Sortino ratio, maximum drawdown, Value at Risk (VaR), and Conditional Value at Risk (CVaR). These metrics help users understand downside risk, return consistency, and exposure to extreme market movements. Rolling risk metrics are calculated over time, allowing users to observe how portfolio risk evolves across different market conditions.
+
+The platform also includes a stress testing engine that enables users to simulate adverse market scenarios. Users can apply custom shocks to individual assets, such as sudden price drops, gradual drawdowns over multiple days, or random shock events. These scenarios are propagated through Monte Carlo simulations to estimate potential portfolio losses, drawdowns, and recovery paths under stressed conditions.
+
+Another key feature is Monte Carlo forward projection, which simulates thousands of potential future portfolio paths based on historical return distributions. This allows users to estimate long-term outcomes such as expected portfolio growth, worst-case scenarios, and probability-weighted returns over multi-year horizons. Both nominal and inflation-adjusted projections are supported, making the analysis more realistic for long-term planning.
+
+The application provides portfolio optimization functionality, which explores different asset weight combinations to identify portfolios with optimal risk-return trade-offs. By simulating thousands of random portfolios, the system estimates the efficient frontier and highlights allocations that maximize Sharpe ratio or minimize volatility, helping users make data-driven allocation decisions.
+
+User authentication and authorization are fully integrated, enabling secure user accounts and saved portfolios. Authenticated users can save, retrieve, and manage multiple portfolios over time, making the platform suitable for repeated analysis and long-term portfolio monitoring. JWT-based authentication ensures session security while maintaining a smooth user experience.
+
+The frontend presents analytics through interactive dashboards with clear visualizations, including line charts, histograms, and stress-test paths. The dashboard is divided into Analytics, Risk, and Metrics sections, allowing users to explore performance, risk exposure, and statistical summaries in a structured and intuitive way. The interface is designed for clarity, making complex financial concepts accessible without oversimplification.
+
+Overall, this project combines portfolio construction, performance analysis, risk modeling, stress testing, and simulation-based forecasting into a single cohesive system. It demonstrates the practical application of financial mathematics, statistical modeling, and full-stack engineering to solve real-world investment analysis problems at a professional level.
