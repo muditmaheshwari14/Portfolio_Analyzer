@@ -1,0 +1,12 @@
+fastapi==0.120.0
+uvicorn[standard]==0.38.0
+yfinance==0.2.66
+pandas==2.3.3
+numpy==2.3.4
+sqlalchemy==2.0.44
+python-jose==3.5.0
+passlib[bcrypt]==1.7.4
+sentence-transformers==5.1.2
+chromadb==1.2.1
+python-multipart==0.0.9
+email-validator==2.3.0
